@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:quad_b_test/app/data/service.dart';
 import '../controllers/home_controller.dart';
 
 class HomeView extends GetView<HomeController> {
@@ -93,8 +94,9 @@ class HomeView extends GetView<HomeController> {
             ),
             // Container(
             //   decoration: BoxDecoration(
-            //  image: DecorationImage(image: )
-            //   ),
+            //       image: DecorationImage(
+            //           image: AssetImage(
+            //               dataService.getData()["show"]["image"]["medium"]))),
             // )
           ]),
         ),
